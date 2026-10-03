@@ -4,7 +4,10 @@ date: 2026-08-02 23:14:47 +0900
 permalink: /builderlog2/
 description: "어제 우리 집이 스스로를 고쳤다."
 naver_url: https://blog.naver.com/dreamsjs1/224411302739
+image: /assets/images/builderlog2/cover.jpg
 ---
+
+![공사 중 벽을 다시 연 스위치 자리]({{ '/assets/images/builderlog2/cover.jpg' | relative_url }})
 
 어제 우리 집이 스스로를 고쳤다.
 
@@ -13,6 +16,9 @@ naver_url: https://blog.naver.com/dreamsjs1/224411302739
 이 토큰은 30일마다 만료된다. 만료되면 집 안의 조명과 스위치와 커튼이 통째로 죽는다. 지난 다섯 달 동안 두 번 겪었다. 그래서 사람이 알아채기 전에 집이 먼저 고치도록 만들었다.
 
 그런데 이 모든 게 가능한 이유는, 여덟 달 전에 **다 끝난 공사의 벽을 다시 뜯었기** 때문이다.
+
+
+![한 장으로 보는 2화: 스마트 스위치는 왜 중성선이 필요할까]({{ '/assets/images/builderlog2/eli5-neutral-wire.png' | relative_url }})
 
 ---
 

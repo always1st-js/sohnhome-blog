@@ -4,6 +4,7 @@ date: 2026-08-02 02:05:01 +0900
 permalink: /builderlog1/
 description: "2024년 1월, 내가 AI에게 처음 던진 질문은 신년회 건배사 추천이었다."
 naver_url: https://blog.naver.com/dreamsjs1/224413384426
+image: /assets/images/builderlog1/eli5-builder-log.png
 ---
 
 2024년 1월, 내가 AI에게 처음 던진 질문은 신년회 건배사 추천이었다.
@@ -17,6 +18,9 @@ ChatGPT는 답했다. "유기농 건배, 지역산 건배, 바삭한 건배, 다
 그게 내 AI 입문이다. 거창한 게 없었다. 신년회 사회자로 지목당해서 건배사 검색하던 일반인이었다.
 
 2년 7개월이 지난 지금, 나는 서른 개 넘는 자동화를 만들었고 그중 스물넷이 지금도 돌고 있다. 집 서버에는 내 명령을 기다리는 에이전트가 상주한다. 그 사이에 무슨 일이 있었는지 적어두려 한다.
+
+
+![한 장으로 보는 1화: 코딩 몰라도 AI로 만드는 사람이 됐다]({{ '/assets/images/builderlog1/eli5-builder-log.png' | relative_url }})
 
 ---
 
