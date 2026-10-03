@@ -23,7 +23,9 @@ minima 의 home 을 덮어쓴다: 글마다 대표 그림(앞머리 image)을 �
         {%- endif -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-        {%- if site.show_excerpts -%}
+        {%- if post.description -%}
+          <p>{{ post.description | escape }}</p>
+        {%- elsif site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
       </li>
