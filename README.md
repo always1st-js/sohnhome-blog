@@ -1,6 +1,6 @@
 # sohnhome-blog
 
-센터장의 빌더 일지 홈 블로그 — https://blog.sohnhome.com (GitHub Pages, Jekyll minima)
+40대 비개발자 아저씨의 빌더 일지 홈 블로그 — https://blog.sohnhome.com (GitHub Pages, Jekyll minima)
 
 - 글: `_posts/YYYY-MM-DD-slug.md`, 주소는 앞머리 `permalink` (옛 Hashnode 주소 `/builderlog1`, `/builderlog2` 유지)
 - 그림: `assets/images/<slug>/`
