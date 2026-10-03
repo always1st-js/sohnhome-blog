@@ -7,8 +7,8 @@ description: 코딩을 모르는 센터장이 바이브 코딩으로 집과 회�
 lang: ko
 locale: ko_KR
 timezone: Asia/Seoul
-url: https://blog.sohnhome.com
-baseurl: ""   # github.io 주소로 미리 볼 때만 "/sohnhome-blog"
+url: https://always1st-js.github.io   # 미리보기용. 전환 때 https://blog.sohnhome.com
+baseurl: "/sohnhome-blog"   # 미리보기용. 도메인 전환 때 "" 로 되돌리고 CNAME 을 넣는다
 author:
   name: 센터장
 theme: minima
