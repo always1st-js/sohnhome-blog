@@ -1,0 +1,28 @@
+# 센터장의 빌더 일지 — 홈 블로그 (blog.sohnhome.com)
+# GitHub Pages(Jekyll)로 빌드한다. 옛 Hashnode 주소(/builderlog1, /builderlog2, /rss.xml)를 그대로 살린다.
+# 원칙(2026-09-17 오빠 결정): 네이버와 다른 글로 쓴다(제목과 도입을 새로, 설정 파일 원본 등을 얹는다).
+#   네이버 원문 링크는 글 끝에 달고, canonical 을 네이버로 걸지 않는다(이 글 자신이 canonical).
+title: 센터장의 빌더 일지
+description: 코딩을 모르는 센터장이 바이브 코딩으로 집과 회사를 고치는 기록. 네이버 블로그 "빌더 일지"의 본진.
+lang: ko
+locale: ko_KR
+timezone: Asia/Seoul
+url: https://blog.sohnhome.com
+baseurl: ""   # github.io 주소로 미리 볼 때만 "/sohnhome-blog"
+author:
+  name: 센터장
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+feed:
+  path: rss.xml   # 옛 Hashnode RSS 주소 그대로
+show_excerpts: true
+header_pages:
+  - about.md
+minima:
+  date_format: "%Y년 %-m월 %-d일"
+exclude:
+  - README.md
+  - tools/
