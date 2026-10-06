@@ -7,8 +7,8 @@ description: "바이브 코딩으로 집과 회사 고치기. 코딩 모르는 4
 lang: ko
 locale: ko_KR
 timezone: Asia/Seoul
-url: https://always1st-js.github.io   # 미리보기용. 전환 때 https://blog.sohnhome.com
-baseurl: "/sohnhome-blog"   # 미리보기용. 도메인 전환 때 "" 로 되돌리고 CNAME 을 넣는다
+url: https://blog.sohnhome.com   # 2026-10-06 오빠 "전환해": 미리보기(always1st-js.github.io/sohnhome-blog)에서 도메인으로
+baseurl: ""   # 도메인은 CNAME 파일. 미리보기로 되돌릴 때만 "/sohnhome-blog" 와 url https://always1st-js.github.io, CNAME 빼기
 author:
   name: 40대 비개발자 아저씨
 theme: minima
