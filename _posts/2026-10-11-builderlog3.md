@@ -159,4 +159,4 @@ Get-ScheduledTask | Where-Object TaskPath -notlike '\Microsoft\*' | Get-Schedule
 
 ---
 
-이 이야기는 네이버 블로그 빌더 일지에 다른 각도로 다시 썼습니다: [3화 AI 업무 자동화가 조용히 멈출 때 알아채는 법](https://blog.naver.com/dreamsjs1/224412590042)
+같은 이야기를 네이버 블로그 빌더 일지에는 다른 각도로 썼습니다: [3화 AI 업무 자동화가 조용히 멈출 때 알아채는 법](https://blog.naver.com/dreamsjs1/224412590042)
