@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="396" viewBox="0 0 680 396" role="img" aria-labelledby="d2-silent-failures-title d2-silent-failures-desc">
+<title id="d2-silent-failures-title">조용한 실패 세 건의 공통 구조</title>
+<desc id="d2-silent-failures-desc">택시 안 대화, 대시보드, 스킬 파일 세 사건 모두 원본은 멀쩡했고 중간 단계가 멈추거나 옛 사본을 들고 있었다는 공통 구조.</desc>
+<defs>
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif}
+.head{font-size:12px;font-weight:600;fill:#2d3142}
+.name{font-size:12px;font-weight:600;fill:#2d3142}
+.sub{font-size:12px;fill:#4f5d75}
+.cap{font-size:12px;fill:#4f5d75}
+.leg{font-size:12px;fill:#4f5d75}
+</style>
+<marker id="d2-arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+</defs>
+<rect width="680" height="396" fill="#FFFFFF"/>
+
+<!-- focal band: 멈춘 중간 단계 -->
+<rect x="236" y="16" width="208" height="296" rx="8" fill="rgba(235,108,54,0.06)" stroke="rgba(235,108,54,0.50)" stroke-width="1" stroke-dasharray="4,4"/>
+
+<text class="head" x="116" y="40" text-anchor="middle">원본은 멀쩡했다</text>
+<text class="head" x="340" y="40" text-anchor="middle">중간에서 멈췄다</text>
+<text class="head" x="564" y="40" text-anchor="middle">내가 본 것</text>
+
+<!-- connectors first -->
+<line x1="208" y1="96" x2="248" y2="96" stroke="#4f5d75" stroke-width="1" marker-end="url(#d2-arr)"/>
+<line x1="432" y1="96" x2="472" y2="96" stroke="#4f5d75" stroke-width="1" stroke-dasharray="5,4" marker-end="url(#d2-arr)"/>
+<line x1="208" y1="180" x2="248" y2="180" stroke="#4f5d75" stroke-width="1" marker-end="url(#d2-arr)"/>
+<line x1="432" y1="180" x2="472" y2="180" stroke="#4f5d75" stroke-width="1" stroke-dasharray="5,4" marker-end="url(#d2-arr)"/>
+<line x1="208" y1="264" x2="248" y2="264" stroke="#4f5d75" stroke-width="1" marker-end="url(#d2-arr)"/>
+<line x1="432" y1="264" x2="472" y2="264" stroke="#4f5d75" stroke-width="1" stroke-dasharray="5,4" marker-end="url(#d2-arr)"/>
+
+<!-- row 1: 택시 안 대화 -->
+<rect x="24" y="64" width="184" height="64" rx="6" fill="#FFFFFF" stroke="#2d3142" stroke-width="1"/>
+<text class="name" x="116" y="92" text-anchor="middle">택시 안에서 한 대화</text>
+<text class="sub" x="116" y="112" text-anchor="middle">claude.ai에 그대로 있음</text>
+<rect x="248" y="64" width="184" height="64" rx="6" fill="#FFFFFF" stroke="rgba(45,49,66,0.40)" stroke-width="1" stroke-dasharray="4,3"/>
+<text class="name" x="340" y="92" text-anchor="middle">통합뇌로 옮기지 않음</text>
+<text class="sub" x="340" y="112" text-anchor="middle">옮기는 단계가 없음</text>
+<rect x="472" y="64" width="184" height="64" rx="6" fill="#FFFFFF" stroke="#2d3142" stroke-width="1"/>
+<text class="name" x="564" y="92" text-anchor="middle">통합뇌 검색 0건</text>
+<text class="sub" x="564" y="112" text-anchor="middle">없는 줄 알았다</text>
+
+<!-- row 2: 대시보드 -->
+<rect x="24" y="148" width="184" height="64" rx="6" fill="#FFFFFF" stroke="#2d3142" stroke-width="1"/>
+<text class="name" x="116" y="176" text-anchor="middle">앱 목록 파일</text>
+<text class="sub" x="116" y="196" text-anchor="middle">구글 드라이브엔 최신</text>
+<rect x="248" y="148" width="184" height="64" rx="6" fill="#FFFFFF" stroke="rgba(45,49,66,0.40)" stroke-width="1" stroke-dasharray="4,3"/>
+<text class="name" x="340" y="176" text-anchor="middle">받아오는 작업 멈춤</text>
+<text class="sub" x="340" y="196" text-anchor="middle">홈서버 예약 작업</text>
+<rect x="472" y="148" width="184" height="64" rx="6" fill="#FFFFFF" stroke="#2d3142" stroke-width="1"/>
+<text class="name" x="564" y="176" text-anchor="middle">멈추기 전 숫자</text>
+<text class="sub" x="564" y="196" text-anchor="middle">화면은 정상처럼 열림</text>
+
+<!-- row 3: 스킬 파일 -->
+<rect x="24" y="232" width="184" height="64" rx="6" fill="#FFFFFF" stroke="#2d3142" stroke-width="1"/>
+<text class="name" x="116" y="260" text-anchor="middle">스킬 파일 205줄</text>
+<text class="sub" x="116" y="280" text-anchor="middle">원본은 고쳐 둠</text>
+<rect x="248" y="232" width="184" height="64" rx="6" fill="#FFFFFF" stroke="rgba(45,49,66,0.40)" stroke-width="1" stroke-dasharray="4,3"/>
+<text class="name" x="340" y="260" text-anchor="middle">대화 시작 때 복사</text>
+<text class="sub" x="340" y="280" text-anchor="middle">169줄 사본에 고정</text>
+<rect x="472" y="232" width="184" height="64" rx="6" fill="#FFFFFF" stroke="#2d3142" stroke-width="1"/>
+<text class="name" x="564" y="260" text-anchor="middle">옛 내용으로 답함</text>
+<text class="sub" x="564" y="280" text-anchor="middle">안 바뀐 줄 알았다</text>
+
+<text class="cap" x="340" y="340" text-anchor="middle">셋 다 에러는 없었다. 조용히 잊히거나 낡아 있었을 뿐이다.</text>
+
+<!-- legend strip -->
+<line x1="24" y1="356" x2="656" y2="356" stroke="rgba(45,49,66,0.12)" stroke-width="0.8"/>
+<line x1="24" y1="380" x2="64" y2="380" stroke="#4f5d75" stroke-width="1" marker-end="url(#d2-arr)"/>
+<text class="leg" x="72" y="384">제대로 전달됨</text>
+<line x1="184" y1="380" x2="224" y2="380" stroke="#4f5d75" stroke-width="1" stroke-dasharray="5,4" marker-end="url(#d2-arr)"/>
+<text class="leg" x="232" y="384">멈춘 뒤 옛것이 보임</text>
+<rect x="380" y="372" width="24" height="16" rx="4" fill="rgba(235,108,54,0.06)" stroke="rgba(235,108,54,0.50)" stroke-width="1" stroke-dasharray="4,4"/>
+<text class="leg" x="412" y="384">끊긴 자리</text>
+</svg>
