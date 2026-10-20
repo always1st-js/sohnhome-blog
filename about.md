@@ -10,7 +10,7 @@ permalink: /about/
 
 ## 두 군데에 쓴다
 
-- 네이버 블로그 「[빌더 일지](https://blog.naver.com/dreamsjs1)」: 이야기가 먼저 올라가는 곳
+- 네이버 블로그 「[빌더 일지](https://blog.naver.com/gwichan_ai)」: 이야기가 먼저 올라가는 곳
 - 이 블로그: 같은 이야기를 다른 각도로. 설정 파일 원본, 구조도 원본, 내려받는 키트를 같이 둔다
 
 ## 쓰는 원칙

@@ -3,7 +3,7 @@ title: "Home Assistant로 묶은 우리 집, 자동화마다 적어 둔 설정 �
 date: 2026-10-11 08:23:54 +0900
 permalink: /builderlog4/
 description: "허브 셋 위에 Home Assistant를 올린 우리 집의 커튼 온도 기준, 학원 알람과 받침 계산 템플릿, 밤 점검을 설정까지 적었다"
-naver_url: https://blog.naver.com/dreamsjs1/224412593623
+naver_url: https://blog.naver.com/gwichan_ai/224412593623
 image: /assets/images/builderlog4/ai-cover-entrance-speaker.jpg
 ---
 
@@ -144,7 +144,7 @@ numeric_state 트리거는 값이 기준선을 넘어가는 순간에만 실행�
 
 도어락에 지문이 찍히면 스피커가 들어온 사람에게 인사한다. 인사 문장은 매번 AI가 새로 만든다. 누가 들어왔는지, 집을 얼마나 오래 비웠는지, 구글 캘린더에 적힌 가족 일정이 무엇인지에 따라 말이 달라진다. AI 답이 7초 안에 오지 않으면 미리 준비해 둔 인사로 넘어간다. 신발도 못 벗고 서 있게 할 수는 없으니까.
 
-식구들이 다 잠든 늦은 밤에도 반겨 주는 목소리가 있어서 귀갓길이 은근히 기다려질 때가 있다. 이 인사를 만든 과정은 네이버 빌더 일지 [16화](https://blog.naver.com/dreamsjs1/224436373383)에 따로 썼다.
+식구들이 다 잠든 늦은 밤에도 반겨 주는 목소리가 있어서 귀갓길이 은근히 기다려질 때가 있다. 이 인사를 만든 과정은 네이버 빌더 일지 [16화](https://blog.naver.com/gwichan_ai/224436373383)에 따로 썼다.
 
 ## 집안일 칸
 
@@ -189,4 +189,4 @@ HA로 묶고 나서 나는 누워서 말로 불을 끄는 게으른 날을 꿈�
 
 ---
 
-같은 이야기를 네이버 블로그 빌더 일지에는 다른 각도로 썼습니다: [4화 허브 셋을 Home Assistant 하나로 묶었더니, 애들이 지각을 안 한다](https://blog.naver.com/dreamsjs1/224412593623)
+같은 이야기를 네이버 블로그 빌더 일지에는 다른 각도로 썼습니다: [4화 허브 셋을 Home Assistant 하나로 묶었더니, 애들이 지각을 안 한다](https://blog.naver.com/gwichan_ai/224412593623)

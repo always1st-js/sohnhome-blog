@@ -3,7 +3,7 @@ title: "입주 예정일에, 우리 집 벽을 다시 뜯었다"
 date: 2026-08-02 23:14:47 +0900
 permalink: /builderlog2/
 description: "어제 우리 집이 스스로를 고쳤다."
-naver_url: https://blog.naver.com/dreamsjs1/224411302739
+naver_url: https://blog.naver.com/gwichan_ai/224411302739
 image: /assets/images/builderlog2/cover.jpg
 ---
 
@@ -246,4 +246,4 @@ AI는 방향을 줬다. 현장은 그 방향이 맞는지 검증했다. 판단�
 
 ---
 
-이 이야기는 네이버 블로그 빌더 일지에 다른 각도로 다시 썼습니다: [2화 구축 아파트 인테리어 도배 전에 챙길 스마트홈 체크리스트](https://blog.naver.com/dreamsjs1/224411302739)
+이 이야기는 네이버 블로그 빌더 일지에 다른 각도로 다시 썼습니다: [2화 구축 아파트 인테리어 도배 전에 챙길 스마트홈 체크리스트](https://blog.naver.com/gwichan_ai/224411302739)
