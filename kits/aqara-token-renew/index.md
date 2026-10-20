@@ -5,7 +5,7 @@ permalink: /kits/aqara-token-renew/
 description: Home Assistant aqara_bridge 의 30일 토큰을 만료 전에 스스로 갈아 끼우는 PowerShell 스크립트. 빌더 일지 11화의 자가수리 장치에서 집 정보를 뺀 공개판(MIT).
 ---
 
-빌더 일지 11화 「[스마트홈 자동화, 새벽 4 시에 우리 집이 스스로 토큰을 갈아 끼운다](https://blog.naver.com/dreamsjs1/224430262079)」에서 소개한 자가수리 장치를 누구나 쓸 수 있게 정리한 것입니다.
+빌더 일지 11화 「[스마트홈 자동화, 새벽 4 시에 우리 집이 스스로 토큰을 갈아 끼운다](https://blog.naver.com/gwichan_ai/224430262079)」에서 소개한 자가수리 장치를 누구나 쓸 수 있게 정리한 것입니다.
 
 ## 내려받기
 
