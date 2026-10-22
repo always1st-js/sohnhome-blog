@@ -3,7 +3,6 @@ title: "내가 이름 붙인 것을, 내가 못 찾았다"
 date: 2026-10-11 04:00:00 +0900
 permalink: /builderlog3/
 description: "이름까지 붙여 둔 아이디어를 통합뇌에서 못 찾은 날과, 에러 한 줄 없이 멈춰 있던 자동화들 이야기"
-naver_url: https://blog.naver.com/gwichan_ai/224412590042
 image: /assets/images/builderlog3/ai-cover-taxi-phone.jpg
 ---
 
@@ -158,5 +157,3 @@ Get-ScheduledTask | Where-Object TaskPath -notlike '\Microsoft\*' | Get-Schedule
 오늘은 여기까지. 읽다가 떠오른 생각이 있다면 지금 메모 앱에 한 줄 적어 두길. 나는 그 한 줄을 미뤘다가, 멀쩡히 남아 있던 대화를 잃어버린 줄 알았다.
 
 ---
-
-같은 이야기를 네이버 블로그 빌더 일지에는 다른 각도로 썼습니다: [3화 AI 업무 자동화가 조용히 멈출 때 알아채는 법](https://blog.naver.com/gwichan_ai/224412590042)
