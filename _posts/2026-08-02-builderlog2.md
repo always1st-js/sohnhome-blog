@@ -3,7 +3,6 @@ title: "입주 예정일에, 우리 집 벽을 다시 뜯었다"
 date: 2026-08-02 23:14:47 +0900
 permalink: /builderlog2/
 description: "어제 우리 집이 스스로를 고쳤다."
-naver_url: https://blog.naver.com/gwichan_ai/224411302739
 image: /assets/images/builderlog2/cover.jpg
 ---
 
@@ -245,5 +244,3 @@ AI는 방향을 줬다. 현장은 그 방향이 맞는지 검증했다. 판단�
 둘 다 우리 집에 있는데 서로 말을 안 하는 상황. 1화에서 음성 비서와 캘린더가 서로 안 만나던 이야기를 썼는데, 같은 일이 이번엔 벽 안에서 벌어졌다. 그걸 어떻게 묶었는지가 다음 이야기다.
 
 ---
-
-이 이야기는 네이버 블로그 빌더 일지에 다른 각도로 다시 썼습니다: [2화 구축 아파트 인테리어 도배 전에 챙길 스마트홈 체크리스트](https://blog.naver.com/gwichan_ai/224411302739)

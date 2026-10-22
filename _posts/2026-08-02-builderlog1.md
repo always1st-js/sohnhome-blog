@@ -3,7 +3,6 @@ title: "내가 AI에게 처음 던진 질문은 신년회 건배사였다"
 date: 2026-08-02 02:05:01 +0900
 permalink: /builderlog1/
 description: "2024년 1월, 내가 AI에게 처음 던진 질문은 신년회 건배사 추천이었다."
-naver_url: https://blog.naver.com/gwichan_ai/224413384426
 image: /assets/images/builderlog1/eli5-builder-log.png
 ---
 
@@ -170,5 +169,3 @@ Anthropic이 정부와 부딪친 자리도 결국 같은 축에 있다. "이 도
 (아, 그리고 *유기농 건배사가 뭔지*는 아직도 모른다.)
 
 ---
-
-이 이야기는 네이버 블로그 빌더 일지에 다른 각도로 다시 썼습니다: [1화 긴 판 내가 AI에게 처음 던진 질문은 신년회 건배사였다](https://blog.naver.com/gwichan_ai/224413384426)
