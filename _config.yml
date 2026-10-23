@@ -1,16 +1,16 @@
-# 40대 비개발자 아저씨의 빌더 일지 — 홈 블로그 (blog.sohnhome.com)
+# 비개발자 아들둘아빠의 빌더 일지 — 홈 블로그 (blog.sohnhome.com)
 # GitHub Pages(Jekyll)로 빌드한다. 옛 Hashnode 주소(/builderlog1, /builderlog2, /rss.xml)를 그대로 살린다.
 # 원칙(2026-09-17 결정): 네이버와 다른 글로 쓴다(제목과 도입을 새로, 설정 파일 원본 등을 얹는다).
 #   네이버와 서로 링크하지 않는다(2026-10-22 결정). canonical 은 이 글 자신.
-title: 40대 비개발자 아저씨의 빌더 일지
-description: "바이브 코딩으로 집과 회사 고치기. 코딩 모르는 40대 직장인이 AI에게 말로 시켜 만든 것들의 기록."
+title: 비개발자 아들둘아빠의 빌더 일지
+description: "바이브 코딩으로 집과 회사 고치기. 코딩 모르는 아들 둘 아빠가 AI에게 말로 시켜 만든 것들의 기록."
 lang: ko
 locale: ko_KR
 timezone: Asia/Seoul
 url: https://blog.sohnhome.com   # 2026-10-06 오빠 "전환해": 미리보기(always1st-js.github.io/sohnhome-blog)에서 도메인으로
 baseurl: ""   # 도메인은 CNAME 파일. 미리보기로 되돌릴 때만 "/sohnhome-blog" 와 url https://always1st-js.github.io, CNAME 빼기
 author:
-  name: 40대 비개발자 아저씨
+  name: 비개발자 아들둘아빠
 theme: minima
 plugins:
   - jekyll-feed
