@@ -1,5 +1,5 @@
 ---
-title: "Home Assistant로 묶은 우리 집, 자동화마다 적어 둔 설정 노트"
+title: "4화 Home Assistant로 묶은 우리 집, 자동화마다 적어 둔 설정 노트"
 date: 2026-10-11 08:23:54 +0900
 permalink: /builderlog4/
 description: "허브 셋 위에 Home Assistant를 올린 우리 집의 커튼 온도 기준, 학원 알람과 받침 계산 템플릿, 밤 점검을 설정까지 적었다"
