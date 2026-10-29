@@ -1,4 +1,5 @@
 ---
+ep: 5
 title: "5화 화장실 불 하나 켜는 데 주말 하나가 들었다"
 date: 2026-09-16 09:00:00 +0900
 permalink: /builderlog5/

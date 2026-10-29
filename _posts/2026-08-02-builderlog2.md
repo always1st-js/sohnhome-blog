@@ -1,4 +1,5 @@
 ---
+ep: 2
 title: "2화 입주 예정일에, 우리 집 벽을 다시 뜯었다"
 date: 2026-08-02 23:14:47 +0900
 permalink: /builderlog2/

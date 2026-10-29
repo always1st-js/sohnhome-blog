@@ -1,4 +1,5 @@
 ---
+ep: 1
 title: "1화 내가 AI에게 처음 던진 질문은 신년회 건배사였다"
 date: 2026-08-02 02:05:01 +0900
 permalink: /builderlog1/

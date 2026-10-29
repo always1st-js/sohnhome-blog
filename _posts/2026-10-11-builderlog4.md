@@ -1,4 +1,5 @@
 ---
+ep: 4
 title: "4화 Home Assistant로 묶은 우리 집, 자동화마다 적어 둔 설정 노트"
 date: 2026-10-11 08:23:54 +0900
 permalink: /builderlog4/

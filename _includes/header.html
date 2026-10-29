@@ -1,0 +1,17 @@
+{%- comment -%}
+minima 머리를 덮어쓴다(2026-10-30): 메뉴가 둘뿐이라 폰에서도 햄버거 없이 늘 보이게, 제목은 폰에서 한 줄로 줄인다.
+메뉴 이름은 앞머리 nav_title(없으면 title).
+{%- endcomment -%}
+<header class="site-header" role="banner">
+  <div class="wrapper head-row">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><span class="t-full">{{ site.title | escape }}</span><span class="t-short">빌더 일지</span></a>
+    <nav class="head-nav">
+      {%- for path in site.header_pages -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        <a class="page-link{% if page.url == my_page.url %} is-here{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.nav_title | default: my_page.title | escape }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+  </div>
+</header>

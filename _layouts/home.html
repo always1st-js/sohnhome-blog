@@ -2,7 +2,10 @@
 layout: default
 ---
 {%- comment -%}
-minima 의 home 을 덮어쓴다: 글마다 대표 그림(앞머리 image)을 제목 위에 보여 준다. 그림이 없으면 글만.
+minima 의 home 을 덮어쓴다(2026-10-30 센터장 "순서도 이상하고 보기 불편하다"):
+- 글은 날짜가 아니라 화 번호(앞머리 ep) 큰 순서로. ep 가 없는 글은 맨 뒤.
+- 한 줄짜리 작은 카드: 왼쪽 작은 그림(세로로 긴 정리 그림도 잘리지 않게 contain), 오른쪽 제목·한 줄 설명.
+- 맨 위에 릴스 보고 온 분을 위한 AI 사옥 안내 띠.
 {%- endcomment -%}
 <div class="home">
   {%- if page.title -%}
@@ -11,23 +14,37 @@ minima 의 home 을 덮어쓴다: 글마다 대표 그림(앞머리 image)을 �
 
   {{ content }}
 
+  <a class="tower-band" href="{{ '/ai-tower/' | relative_url }}">
+    <strong>릴스 보고 오셨나요?</strong>
+    <span>AI 사옥 안내 · 방 만드는 법 · 결정 서랍 만드는 법 →</span>
+  </a>
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "글 목록" }}</h2>
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%Y년 %-m월 %-d일" -%}
-      {%- for post in site.posts -%}
-      <li style="margin-bottom: 36px;">
-        {%- if post.image -%}
-        <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy"
-             style="width: 100%; max-height: 320px; object-fit: cover; border-radius: 8px; margin-bottom: 10px;"></a>
-        {%- endif -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-        {%- if post.description -%}
-          <p>{{ post.description | escape }}</p>
-        {%- elsif site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+    {%- assign eps = site.posts | sort: "ep", "last" | reverse -%}
+    {%- assign no_ep = site.posts | where_exp: "p", "p.ep == nil" -%}
+    <ul class="post-list ep-list">
+      {%- for post in eps -%}
+      {%- if post.ep == nil -%}{%- continue -%}{%- endif -%}
+      <li class="ep-card">
+        <a class="ep-thumb" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+          {%- if post.image -%}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{%- endif -%}
+        </a>
+        <div class="ep-text">
+          <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+          {%- if post.description -%}<p>{{ post.description | escape }}</p>{%- endif -%}
+        </div>
+      </li>
+      {%- endfor -%}
+      {%- for post in no_ep -%}
+      <li class="ep-card">
+        <a class="ep-thumb" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+          {%- if post.image -%}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{%- endif -%}
+        </a>
+        <div class="ep-text">
+          <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+          {%- if post.description -%}<p>{{ post.description | escape }}</p>{%- endif -%}
+        </div>
       </li>
       {%- endfor -%}
     </ul>

@@ -19,7 +19,8 @@ plugins:
 feed:
   path: rss.xml   # 옛 Hashnode RSS 주소 그대로
 show_excerpts: true
-header_pages:
+header_pages:   # 메뉴 순서(이름은 앞머리 nav_title)
+  - ai-tower.md
   - about.md
 minima:
   date_format: "%Y년 %-m월 %-d일"

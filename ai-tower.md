@@ -1,6 +1,7 @@
 ---
 layout: page
 title: AI 타워 자세히 보기
+nav_title: AI 사옥 안내
 permalink: /ai-tower/
 description: "AI 직원들이 일하는 AI 오피스(AI 타워)를 다섯 장으로 자세히 봐요. 마지막 장의 아침 3줄 브리핑부터 오늘 바로 해 보세요."
 sitemap: true
