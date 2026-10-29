@@ -1,4 +1,5 @@
 ---
+ep: 3
 title: "3화 내가 이름 붙인 것을, 내가 못 찾았다"
 date: 2026-10-11 04:00:00 +0900
 permalink: /builderlog3/
